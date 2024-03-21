@@ -1,0 +1,83 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0,0,0);
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  cursor: none;
+}
+aside{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap:20px;
+  width: 200px;
+  height: 100%;
+  border-right: 1px solid white;
+  padding-top: 20px;
+}
+main{
+ flex: 1;
+ display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+header{
+  color: rgb(255, 255, 255);
+}
+h1{
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+}
+.shortcut_hint{
+  color: white;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0,0,0,0.8);
+  padding: 10px;
+  align-items: center;
+  align-self: center;
+  width: fit-content;
+  gap: 5px;
+  border: 1px solid rgb(63, 63, 63);
+  border-radius: 10px;
+}
+.shortcut_hint_key{
+  background-color: gray;
+  
+  border-radius: 3px;
+  padding: 2px;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+.shortcut_hint_key>p{
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.c-cont{
+  width: 500px;
+  height: 500px;
+}
+canvas{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(19, 19, 19);
+  cursor: none;
+}
